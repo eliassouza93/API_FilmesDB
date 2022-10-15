@@ -7,40 +7,35 @@ h2 {
 }
 
 .container {
-    max-width: 1700px;
     width: 100%;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: #333;
     color: #efefef;
+    padding: 0px 20px;
 }
-
-.bloco {
-    width: 100%;
-    height: auto;
-
-
-}
-
+ 
 .infos {
-
-    width: 100%;
-    justify-content: space-evenly;
+    border: 1px solid white;
+    margin-top: 15px ;
+ 
 
     & p {
-        font-size: 25px;
-        margin-left: 90px;
-        width: 100%;
+        font-size: 18px;
         max-width: 300px;
-      
+        text-align: center;
     }
+
 
     & img {
         width: 100%;
         max-width: 300px;
-        margin-left: 90px;
+        border-radius: 4px;
+       
+   
     }
 
 }
